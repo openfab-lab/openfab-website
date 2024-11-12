@@ -1,20 +1,200 @@
+:root {
+  /* Neutral color palette */
+  --primary-color: #333;
+  --secondary-color: #666;
+  --background-light: #ffffff;
+  --background-dark: #f1f1f1;
+  --card-header-bg: #f8f9fa;  /* Light gray for card headers */
+  --card-border-color: #dee2e6;  /* Slightly darker border */
+  --accent-color: #007bff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--primary-color);
+  background-color: var(--background-light);
+}
+
 .jumbotron {
   background: url('/images/ban-hero.jpg') no-repeat center center;
   background-size: cover;
   height: 100%;
   color: white;
   text-shadow: 1px 1px 2px black;
+  position: relative;
 }
 
 .logo-link {
   position: absolute;
   top: 5px;
   left: 15px;
-  z-index: 1;
+  z-index: 10;
+  transition: transform 0.3s ease;
 }
 
-/* Ajustez la taille selon vos besoins */
+.logo-link:hover {
+  transform: scale(1.05);
+}
+
 .logo {
   width: 100px;
   height: auto;
+}
+
+/* Section Headings */
+.display-4 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Calendar Section Specific Styles */
+#nos-prochains-rendez-vous {
+  margin-bottom: 2rem;
+}
+
+#nos-prochains-rendez-vous .display-4 {
+  margin-bottom: 1.5rem;
+}
+
+#nos-prochains-rendez-vous .calendar-container {
+  background-color: var(--background-light);
+  border: 1px solid var(--card-border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#nos-prochains-rendez-vous iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* Accordion Specific Styles */
+#votre-parcours-maker .accordion {
+  background-color: var(--background-light);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid var(--card-border-color);
+  overflow: hidden;
+}
+
+#votre-parcours-maker .accordion .card {
+  border: none;
+  border-bottom: 1px solid var(--card-border-color);
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+#votre-parcours-maker .accordion .card:last-child {
+  border-bottom: none;
+}
+
+#votre-parcours-maker .accordion .card-header {
+  background-color: var(--card-header-bg);
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid var(--card-border-color);
+}
+
+#votre-parcours-maker .accordion .card-header:hover {
+  background-color: #e9ecef;  /* Slightly darker gray on hover */
+}
+
+#votre-parcours-maker .accordion .card-header button {
+  color: var(--primary-color);
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+}
+
+#votre-parcours-maker .accordion .card.show .card-header,
+#votre-parcours-maker .accordion .card-header:active {
+  background-color: #e2e6ea;  /* Even darker gray when active/selected */
+}
+
+#votre-parcours-maker .accordion .card-body {
+  background-color: white;
+  padding: 1rem;
+  border-top: 1px solid var(--card-border-color);
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid var(--card-border-color);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+}
+
+.card-header {
+  background-color: var(--background-dark);
+  border-bottom: 1px solid var(--card-border-color);
+}
+
+/* Embedded Content */
+iframe {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: lighten(var(--accent-color), 20%);
+  text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .logo {
+    width: 80px;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  #nos-prochains-rendez-vous iframe {
+    height: 250px;
+  }
+}
+
+/* Social Icons */
+.social {
+  color: var(--accent-color);
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social:hover {
+  color: darken(var(--accent-color), 10%);
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
 }
