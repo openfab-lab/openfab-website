@@ -1,20 +1,43 @@
 .jumbotron {
-  background: url('/images/ban-hero.jpg') no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   height: 100%;
   color: white;
   text-shadow: 1px 1px 2px black;
 }
 
-.logo-link {
-  position: absolute;
-  top: 5px;
-  left: 15px;
-  z-index: 1;
+.logo-link img {
+  width: 40px;
 }
 
 /* Ajustez la taille selon vos besoins */
 .logo {
   width: 100px;
   height: auto;
+}
+
+.gamelab-about {
+  display: none;
+  width: 400px;
+  float: left;
+  shape-outside: url(/images/gamelab-1.png);
+  shape-margin: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  border-top: 1px solid lightgray;
 }
