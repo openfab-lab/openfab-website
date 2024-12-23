@@ -1,17 +1,20 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
+    <!-- Metadata and character encoding -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>OpenFab</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Page Title -->
+    <title>OpenFab - Votre Communauté Maker</title>
 
+    <!-- External CSS Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
@@ -29,39 +32,45 @@
       </ul>
     </div>
   </nav>
-
-  <div class="jumbotron text-center" id="propos" style="background-image: url('/images/ban-hero.jpg');">
+  <!-- Hero Section: Introduces the OpenFab brand and mission -->
+  <div class="jumbotron text-center" id="hero">
     <div class="container mx-auto my-5 py-5">
       <h1 class="display-2 mt-3">Bricoler, ça fait du bien. <br> C'est le yoga des makers.</h1>
     </div>
   </div>
 
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-sm">
-        <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/88023042-a11b2180-cb30-11ea-889b-bc66c9c93d23.png" alt="" height="400"></p>
-      </div>
-      <div class="col-sm text-center">
-        <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/83530336-e1c0cc00-a4eb-11ea-8f91-672eb23e3bcc.png" alt="" height="400"></p>
-      </div>
+  <!-- Community Introduction: Visual and textual representation of OpenFab -->
+  <div class="container text-center" id="notre-communaute">
+    <div class="mx-auto text-center">
+      <div class="row">
+        <!-- Visual representations of community and maker spirit -->
+        <div class="col-sm">
+          <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/88023042-a11b2180-cb30-11ea-889b-bc66c9c93d23.png" alt="" height="400"></p>
+        </div>
+        <div class="col-sm text-center">
+          <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/83530336-e1c0cc00-a4eb-11ea-8f91-672eb23e3bcc.png" alt="" height="400"></p>
+        </div>
 
-      <div class="mx-auto text-center">
-        <p class="lead"><br>Parce que nous manquons souvent de place, d'outils appropriés ou de connaissances sur leur utilisation, ou simplement par manque de motivation, une idée reste malheureusement souvent une simple idée.<br>
-          Heureusement, ces excuses ne sont pas inévitables et peuvent être évitées.</p>
+        <!-- Community mission statement -->
+        <div class="mx-auto text-center">
+          <p class="lead"><br>Parce que nous manquons souvent de place, d'outils appropriés ou de connaissances sur leur utilisation, ou simplement par manque de motivation, une idée reste malheureusement souvent une simple idée.<br>
+            Heureusement, ces excuses ne sont pas inévitables et peuvent être évitées.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <!-- FAQ -->
+  <!-- Maker Journey Section: Detailed explanation of OpenFab's purpose and approach -->
+  <div class="container" id="votre-parcours-maker">
     <div class="mx-auto text-center">
-      <h1 class="display-4 mt-5 pt-5" id="faq">Openfab? Un club de geek.</h1>
+      <h1 class="display-4 mt-5 pt-5">Qui sommes nous?</h1>
       <p class="lead">Openfab est un projet de l'ASBL Syntonie. Cette association explore la relation entre l'être humain et son environnement.<br>
         Openfab est LE fablab bruxellois qui explore spécifiquement le lien entre l'humain et la technologie.<br>
         Openfab est une communauté dont l'objectif est de mettre en place des mécanismes pour nous aider à nous libérer de nos freins préliminaires, à trouver du sens, de la motivation, de l'excitation dans nos idées de réalisation, ainsi qu'à recréer du lien localement.  <br>
         Comment ? En favorisant les échanges grâce à la mixité des savoir-faire, à la mutualisation d'un lieu et des machines, ainsi qu'à l'exemple et la pratique.</p>
     </div>
-    <br>
+
+    <!-- FAQ Accordion: Answering common questions about OpenFab -->
     <div class="accordion" id="accordionExample">
 
       <!-- FAQ1 -->
@@ -245,130 +254,122 @@
     <!-- Tarifs -->
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="tarifs">
       <h1 class="display-4 mt-5 pt-5">Tarifs</h1>
-
     </div>
 
+    <!-- Tariff Details Card -->
     <div class="card-deck text-center">
       <div class="card mb-2 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Cotisation et grille tarifaire 07.23</h4>
-        </div>
         <div class="card-body">
-          <!-- <h2 class="card-title pricing-card-title">cotisation</h2> -->
+          <!-- Pricing and membership details -->
           <p class="lead">
-            <strong>Cotisation (def.)</strong> = Somme versée en vue de contribuer à une dépense commune. C'est un soutien à l'asbl qui donne accès aux bénéfices de cette mise en commun.</p>
-          <br>
-          <h4 class="my-0 font-weight-normal">Devenez membre pour seulement 25€/an et rejoignez une communauté de passionnés pour apprendre, créer et partager ensemble.</h4>
-          <p>En adhérant, vous soutenez notre action et nos valeurs.</p>
-          <p>Votre adhésion vous donnera accès à nos événements internes comme les Council Makers où nous prenons collectivement des décisions sur la vie du lab. Vous pourrez également participer à nos soirées jeux mensuelles et rejoindre notre groupe WhatsApp pour rester connecté à la communauté. <br> Cependant, l’accès à l'espace de travail collaboratif et l'utilisation des équipements restent soumis à notre grille tarifaire générale.
+            <!-- <strong>Cotisation (def.)</strong> = Somme versée en vue de contribuer à une dépense commune. C'est un soutien à l'asbl qui donne accès aux bénéfices de cette mise en commun.</p>
+              <br> -->
+            <h4 class="my-0 font-weight-normal">Devenez membre pour seulement 25€/an et rejoignez une communauté de passionnés pour apprendre, créer et partager ensemble.</h4>
+            <p>En adhérant, vous soutenez notre action et nos valeurs.</p>
+            <p>Votre adhésion vous donnera accès à nos événements internes comme les Council Makers où nous prenons collectivement des décisions sur la vie du lab. Vous pourrez également participer à nos soirées jeux mensuelles et rejoindre notre groupe WhatsApp pour rester connecté à la communauté. <br> Cependant, l'accès à l'espace de travail collaboratif et l'utilisation des équipements restent soumis à notre grille tarifaire générale.
             </p>
-
-          <p><img src="/images/tarif2023.png" alt="" height="400"></p>
-          <iframe data-tally-src="https://tally.so/embed/woE6KO?alignLeft=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="292" frameborder="0" marginheight="0" marginwidth="0" title="Formulaire de contact
-"></iframe>
-          <script>
-            var d = document,
-              w = "https://tally.so/widgets/embed.js",
-              v = function () {
-                "undefined" != typeof Tally
-                  ? Tally.loadEmbeds()
-                  : d
-                    .querySelectorAll("iframe[data-tally-src]:not([src])")
-                    .forEach((function (e) {
-                      e.src = e.dataset.tallySrc
-                    }))
-              };
-            if ("undefined" != typeof Tally) 
-              v();
-            else if (d.querySelector('script[src="' + w + '"]') == null) {
-              var s = d.createElement("script");
-              s.src = w,
-              s.onload = v,
-              s.onerror = v,
-              d
-                .body
-                .appendChild(s);
-            }
-          </script>
+            <p><img src="/images/tarif2023.png" alt="" height="400"></p>
+          </div>
         </div>
       </div>
-      <!-- <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Services</h4>
-          </div>
+    </div>
+
+    <!-- Calendar Section: Upcoming events and permanences -->
+    <div class="container" id="nos-prochains-rendez-vous">
+      <div class="text-center">
+        <h1 class="display-4 mt-5 pt-5">Nos prochaines permanences</h1>
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBrussels&showPrint=0&showTabs=0&showCalendars=0&mode=WEEK&hl=fr&showNav=1&src=Y19mbGU3bmczcjN0a21nYXQxczk1bzlidTgxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+
+    <!-- Contact Section: Reaching out to OpenFab -->
+    <div class="container" id="commencons-ensemble">
+      <h1 class="display-4 mt-5 pt-5 text-center">Pour nous contacter</h1>
+      <div class="card-deck text-center">
+        <div class="card mb-2 box-shadow">
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">55€ <small class="text-muted">/ heure</small></h1>
-            <p>Nos membres réalisent pour vous. Devis sur demande. Délai min. 48h.</p>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Conception design</li>
-              <li>Préparation de fichier</li>
-              <li>Tutorat</li>
-              <li>Impression 3D</li>
-              <li>Découpe laser</li>
-              <li>Usinage CNC</li>
-            </ul>
-            <a class="btn btn-lg btn-block btn-outline-secondary" href="/contact" target="_self" role="button">Nous contacter</a>
+
+            <iframe data-tally-src="https://tally.so/embed/m6eajY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="276" frameborder="0" marginheight="0" marginwidth="0" title="Contact form"></iframe>
+            <script>
+              var d = document,
+                w = "https://tally.so/widgets/embed.js",
+                v = function () {
+                  "undefined" != typeof Tally
+                    ? Tally.loadEmbeds()
+                    : d
+                      .querySelectorAll("iframe[data-tally-src]:not([src])")
+                      .forEach((function (e) {
+                        e.src = e.dataset.tallySrc
+                      }))
+                };
+              if ("undefined" != typeof Tally) 
+                v();
+              else if (d.querySelector('script[src="' + w + '"]') == null) {
+                var s = d.createElement("script");
+                s.src = w,
+                s.onload = v,
+                s.onerror = v,
+                d
+                  .body
+                  .appendChild(s);
+              }
+            </script>
           </div>
-        </div> -->
+        </div>
+      </div>
     </div>
 
-    <!-- Contact -->
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="contact">
-      <h1 class="display-4 mt-5 pt-5">Le lieu</h1>
-      <p class="lead">L'atelier d'OpenFab se situe au 158 rue Gray à Ixelles. <br>
+    <!-- Workshop Location Section: Physical space and address -->
+    <div class="container" id="notre-atelier">
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 mt-5 pt-5">Notre atelier</h1>
+        <p class="lead">L'atelier d'OpenFab se situe au 158 rue Gray à Ixelles. <br>
           Il est équipé d'une découpeuse laser 61x122cm, d'un petite cnc 30x40cm, d'une imprimante PrusaMini, d'une machine à coudre Singer, d'une découpeuse vinyle Cameo, d'outillage divers pour le travail de finition du bois et de l'électronique. Une cuisine est aussi à disposition ainsi que des toilettes PMR.</p>
-    </div>
-
-    <!-- Map -->
-    <div class="row">
-      <div class="col">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.905226378007!2d4.376370815909567!3d50.83291936761275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4965c03a80b%3A0xc615e8d39bd5979e!2sRue%20Gray%20158%2C%201050%20Ixelles!5e0!3m2!1sfr!2sbe!4v1574198623697!5m2!1sfr!2sbe" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-    </div>
 
-    <!-- Calendar -->
-    <div class="text-center" id="calendar">
-      <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBrussels&showPrint=0&showTabs=0&showCalendars=0&mode=WEEK&hl=fr&showNav=1&src=Y19mbGU3bmczcjN0a21nYXQxczk1bzlidTgxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
-    </div>
-  </div>
-
-  <!-- Logo commune -->
-  <div class="container mx-auto my-5 text-center ">
-    <div class="row">
-      <div class="col">
-        <img src="https://user-images.githubusercontent.com/12049360/83546981-d4164100-a501-11ea-9865-4abe42510308.png" alt="" width="90%"  >
-      </div>
-    </div>
-  </div><br>
-
-  <footer class="pt-4">
-    <div class="container">
+      <!-- Embedded Google Maps -->
       <div class="row">
-        <div class="col text-left">
-          <p><br>OpenFab adhère à la charte des FabLabs, participe activement à l'initiative <a href="https://vulca.eu/" target="_blank">Vulca</a> et est reconnu par la Benelux Fab Foundation</p>
-        </div>
-        <div class="col-5 text-center">
-          <p class="txt-railway">- Suis nous -<br>- Mieux! Viens faire quelque chose! -</p>
-          <a href="https://www.facebook.com/OpenFab">
-            <i id="social-fb" class="fa fa-facebook-square fa-3x social"></i>
-          </a>
-          <a href="https://github.com/openfab-lab">
-            <i id="social-git" class="fa fa-github-square fa-3x social"></i>
-          </a>
-          <!-- <br /><a href="https://www.pinterest.com/openfab/"><i id="social-pin" class="fa fa-pinterest-square fa-3x social"></i></a> -->
-          <!-- <a href="https://www.google.com/maps/place/OpenFab/@50.8258324,4.3819548,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3c4c09d468df1:0xab070075b72e8d93!8m2!3d50.8258324!4d4.3841435"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a> -->
-          <!-- <a href="https://www.youtube.com/channel/UCORN2IFxGa4o81jvYYDdVSg"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a> -->
-          <!-- <a href="mailto:contact@openfab.be"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a> -->
-        </div>
-        <div class="col text-right">
-          <p><br>This work is licensed under a Creative Commons Attribution NonCommercial ShareAlike 4.0 International License.<br>
-            Design by ZuperNinja, Satblip, Doegox and Nicolasdb with BootStrap, beers and french fries.</p>
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.905226378007!2d4.376370815909567!3d50.83291936761275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4965c03a80b%3A0xc615e8d39bd5979e!2sRue%20Gray%20158%2C%201050%20Ixelles!5e0!3m2!1sfr!2sbe!4v1574198623697!5m2!1sfr!2sbe" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
-    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+      <!-- Local Municipality Logo -->
+      <div class="container mx-auto my-5 text-center ">
+        <div class="row">
+          <div class="col">
+            <img src="/images/logoIxelles.png" alt="" width="90%"  >
+          </div>
+        </div>
+      </div><br>
+
+      <!-- Footer: Additional information and social links -->
+      <footer class="mt-0 pt-0">
+        <div class="container">
+          <div class="row">
+            <div class="col text-left">
+              <p><br>OpenFab adhère à la charte des FabLabs, participe activement à l'initiative <a href="https://vulca.eu/" target="_blank">Vulca</a> et est reconnu par la Benelux Fab Foundation</p>
+            </div>
+            <div class="col-5 text-center">
+              <p class="txt-railway">- Suis nous -<br>- Mieux! Viens faire quelque chose! -</p>
+              <a href="https://www.facebook.com/OpenFab">
+                <i id="social-fb" class="fa fa-facebook-square fa-3x social"></i>
+              </a>
+              <a href="https://github.com/openfab-lab">
+                <i id="social-git" class="fa fa-github-square fa-3x social"></i>
+              </a>
+            </div>
+            <div class="col text-right">
+              <p><br>This work is licensed under a Creative Commons Attribution NonCommercial ShareAlike 4.0 International License.<br>
+            Design by ZuperNinja, Satblip, Doegox and Nicolasdb with BootStrap, beers and french fries.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+  </html>
