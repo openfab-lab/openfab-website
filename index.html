@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    
+
     <!-- Page Title -->
     <title>OpenFab - Votre Communauté Maker</title>
 
@@ -18,301 +18,329 @@
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    <!-- Hero Section: Introduces the OpenFab brand and mission -->
-    <div class="jumbotron text-center" id="hero">
-      <!-- Vulca Logo: Signaling partnership and support -->
-      <a href="https://vulca.eu/" class="logo-link">
-        <img src="/images/LogoVulca_v22-07.png" alt="Description du logo" class="logo">
-      </a>
-      <div class="container mx-auto my-5 py-5">
-        <h1 class="display-2 mt-3">Bricoler, ça fait du bien. <br> C'est le yoga des makers.</h1>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo-link" href="index.html"><img src="/images/logo-openfab.png" alt="Openfab logo"/></a>
+      <span class="sr-only">Accueil (current)</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="gamelab.html">Gamelab</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <!-- Hero Section: Introduces the OpenFab brand and mission -->
+  <div class="jumbotron text-center" id="hero" style="background-image: url('images/ban-hero.jpg');>
+    <div class="container mx-auto my-5 py-5">
+    <h1 class="display-2 mt-3">Bricoler, ça fait du bien. <br> C'est le yoga des makers.</h1>
+  </div>
+</div>
 
-    <!-- Community Introduction: Visual and textual representation of OpenFab -->
-    <div class="container text-center" id="notre-communaute">
+<!-- Community Introduction: Visual and textual representation of OpenFab -->
+<div class="container text-center" id="notre-communaute">
+  <div class="mx-auto text-center">
+    <div class="row">
+      <!-- Visual representations of community and maker spirit -->
+      <div class="col-sm">
+        <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/88023042-a11b2180-cb30-11ea-889b-bc66c9c93d23.png" alt="" height="400"></p>
+      </div>
+      <div class="col-sm text-center">
+        <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/83530336-e1c0cc00-a4eb-11ea-8f91-672eb23e3bcc.png" alt="" height="400"></p>
+      </div>
+
+      <!-- Community mission statement -->
       <div class="mx-auto text-center">
-        <div class="row">
-          <!-- Visual representations of community and maker spirit -->
-          <div class="col-sm">
-            <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/88023042-a11b2180-cb30-11ea-889b-bc66c9c93d23.png" alt="" height="400"></p>
-          </div>
-          <div class="col-sm text-center">
-            <p class="mx-auto mt-5"><img src="https://user-images.githubusercontent.com/12049360/83530336-e1c0cc00-a4eb-11ea-8f91-672eb23e3bcc.png" alt="" height="400"></p>
-          </div>
-
-          <!-- Community mission statement -->
-          <div class="mx-auto text-center">
-            <p class="lead"><br>Parce que nous manquons souvent de place, d'outils appropriés ou de connaissances sur leur utilisation, ou simplement par manque de motivation, une idée reste malheureusement souvent une simple idée.<br>
+        <p class="lead"><br>Parce que nous manquons souvent de place, d'outils appropriés ou de connaissances sur leur utilisation, ou simplement par manque de motivation, une idée reste malheureusement souvent une simple idée.<br>
             Heureusement, ces excuses ne sont pas inévitables et peuvent être évitées.</p>
-          </div>
-        </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Maker Journey Section: Detailed explanation of OpenFab's purpose and approach -->
-    <div class="container" id="votre-parcours-maker">
-      <div class="mx-auto text-center">
-        <h1 class="display-4 mt-5 pt-5">Qui sommes nous?</h1>
-        <p class="lead">Openfab est un projet de l'ASBL Syntonie. Cette association explore la relation entre l'être humain et son environnement.<br>
+<!-- Maker Journey Section: Detailed explanation of OpenFab's purpose and approach -->
+<div class="container" id="votre-parcours-maker">
+  <div class="mx-auto text-center">
+    <h1 class="display-4 mt-5 pt-5">Qui sommes nous?</h1>
+    <p class="lead">Openfab est un projet de l'ASBL Syntonie. Cette association explore la relation entre l'être humain et son environnement.<br>
         Openfab est LE fablab bruxellois qui explore spécifiquement le lien entre l'humain et la technologie.<br>
         Openfab est une communauté dont l'objectif est de mettre en place des mécanismes pour nous aider à nous libérer de nos freins préliminaires, à trouver du sens, de la motivation, de l'excitation dans nos idées de réalisation, ainsi qu'à recréer du lien localement.  <br>
         Comment ? En favorisant les échanges grâce à la mixité des savoir-faire, à la mutualisation d'un lieu et des machines, ainsi qu'à l'exemple et la pratique.</p>
-      </div>
+  </div>
 
-      <!-- FAQ Accordion: Answering common questions about OpenFab -->
-      <div class="accordion" id="accordionExample">
+  <!-- FAQ Accordion: Answering common questions about OpenFab -->
+  <div class="accordion" id="accordionExample">
 
-
-        <!-- FAQ1 -->
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <!-- FAQ1 -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Quel profil ont les membres d'OpenFab?
               </button>
-            </h5>
-          </div>
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
               L’atelier existe depuis 2012 et est fédéré par sa communauté de membres actifs.<br>
               Nous partageons tous le plaisir de bricoler, pour une diversité de raisons personnelles.<br>
               Nous sommes autodidactes, curieux et passionnées, professionnelles ou hobbyists, débutants ou expérimentées.<br>
               Nous nous réunissons pour pouvoir faire plus de ce qu'on aime, parce que ça fait du bien.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ2 -->
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+    <!-- FAQ2 -->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 À qui s'adresse Openfab?
               </button>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
               Si tu penses que la fabrication numérique pourrait t'aider dans tes pratiques de loisir ou professionnelles, et que tu as envie de tester et d'explorer, nous sommes là pour toi.<br>
               Tes besoins sont l'accès au lieu et aux machines. Tu préfères apprendre par toi-même et tu veux passer du temps à t'exercer.  <br>
               Tu aimerais le faire au sein d'une communauté qui peut te guider et partager l'esprit "makers". <br>
               Viens nous parler de ce que tu veux fabriquer.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-
-        <!-- FAQ3 -->
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+    <!-- FAQ3 -->
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Je sais pas trop si c'est ce qu'il me faut. Par quoi commencer?
               </button>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
               Viens nous rencontrer pour discuter de ton projet, participer à un événement, ou commencer par nous aider en tant que bénévole sur l'une ou l'autre de nos activités. <br>
               Contacte-nous.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ4 -->
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+    <!-- FAQ4 -->
+    <div class="card">
+      <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 Quand êtes-vous ouvert ?
               </button>
-            </h5>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
               OpenFab est disponible sur rendez-vous ou pendant les permanences tenues par nos membres. <br>
               Vous êtes également les bienvenus spontanément, mais veuillez noter qu'il se peut qu'il n'y ait personne pour vous accueillir.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ5 -->
-        <div class="card">
-          <div class="card-header" id="headingFive">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+    <!-- FAQ5 -->
+    <div class="card">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 Je cherche à faire produire une pièce. Combien ça coûte?
               </button>
-            </h5>
-          </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="card-body">
               L'ASBL ne propose plus de services de production, mais peut transférer vos demandes à ses membres. Nous vous invitons à utiliser le formulaire de contact pour présenter clairement votre demande, avec un peu de contexte, les détails de la demande et une fourchette de budget raisonnable, ou pourquoi pas une proposition d'échange de services.
               <br>
               Veuillez noter que l'ASBL ne garantit pas de réponse à vos demandes. Les personnes intéressées parmi les membres par votre projet se mettront personnellement en contact avec vous pour la suite.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ6 -->
-        <div class="card">
-          <div class="card-header" id="headingSix">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+    <!-- FAQ6 -->
+    <div class="card">
+      <div class="card-header" id="headingSix">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
               Organisez vous des formations d'introduction aux machines?
               </button>
-            </h5>
-          </div>
-          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+        <div class="card-body">
               Nous ne dispensons pas de formation en tant que telle, mais nous encourageons les échanges entre pairs grâce à l'auto-apprentissage pratique. La communauté présente peut fournir des conseils et des orientations, mais il est important de se rappeler que chacun a ses propres projets. <br>
               Si vous recherchez une formation plus traditionnelle sous forme de "cours" structuré, nous vous conseillons de vous tourner vers nos collègues du réseau des fablabs bruxellois.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ7 -->
-        <div class="card">
-          <div class="card-header" id="headingSeven">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+    <!-- FAQ7 -->
+    <div class="card">
+      <div class="card-header" id="headingSeven">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                 Je peux venir faire un stage ?
               </button>
-            </h5>
-          </div>
-          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+        <div class="card-body">
               Oui, il nous arrive d'accompagner des stagiaires dans le cadre de leurs études, mais cela dépend de la disponibilité des membres. Si vous êtes intéressé, veuillez nous parler de vos motivations via le formulaire de contact. Nous serons ravis d'en discuter.
               <br>
               Pour les demandes internationales, malheureusement, nous ne pouvons pas accueillir de stagiaires rémunérés. Cependant, nous ferons de notre mieux pour faciliter vos démarches si nécessaire.
               <br>
               Nous avons souvent besoin d'aide pour explorer le modèle économique et de gestion, organiser des événements ou encore communiquer sur nos activités. Vous pouvez choisir sur quoi vous souhaitez travailler et nous vous accompagnerons.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ8 -->
-        <div class="card">
-          <div class="card-header" id="headingEight">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+    <!-- FAQ8 -->
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                 L'asbl est indépendante, qu'est-ce que ça veut dire?
               </button>
-            </h5>
-          </div>
-          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+        <div class="card-body">
               Pour maintenir son focus sur la communauté, il est important que l'ASBL soit indépendante. Cela signifie que nous sommes une initiative citoyenne, gérée par et pour les membres. Cela implique la recherche d'une gouvernance et d'un modèle économique adaptés et centrés sur l'humain. Nous voulons conserver notre liberté d'explorer sans le poids des obligations politiques ou économiques.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ9 -->
-        <div class="card">
-          <div class="card-header" id="headingNine">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+    <!-- FAQ9 -->
+    <div class="card">
+      <div class="card-header" id="headingNine">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                 Comment sont financées vos activitées?
               </button>
-            </h5>
-          </div>
-          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+        <div class="card-body">
               D'un point de vue financier, l'espace est mis à disposition par la commune d'Ixelles, avec une gestion participative et une maintenance partagée des équipements par la communauté. Cela réduit les coûts communs à un minimum d'environ 1000 € par mois. 
               <br>
               Ces dépenses sont couvertes par le soutien financier des membres à travers les cotisations, leurs activités et des tarifs raisonnés pour l'utilisation des équipements numériques.
             </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <!-- FAQ10 -->
-        <div class="card">
-          <div class="card-header" id="headingTen">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+    <!-- FAQ10 -->
+    <div class="card">
+      <div class="card-header" id="headingTen">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                 Je peux vous poser des questions sur votre modèle économique ou financier ou social ?
               </button>
-            </h5>
-          </div>
-          <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
-            <div class="card-body">
+        </h5>
+      </div>
+      <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+        <div class="card-body">
               Bien sûr.
             </div>
-          </div>
-        </div>
       </div>
+    </div>
+  </div>
 
+  <!-- Tarifs -->
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="tarifs">
+    <h1 class="display-4 mt-5 pt-5">Tarifs</h1>
+  </div>
 
-
-
-      <!-- Tarifs -->
-      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="tarifs">
-        <h1 class="display-4 mt-5 pt-5">Tarifs</h1>
-      </div>
-
-      <!-- Tariff Details Card -->
-      <div class="card-deck text-center">
-        <div class="card mb-2 box-shadow">
-          <div class="card-body">
-            <!-- Pricing and membership details -->
-            <p class="lead">
-              <!-- <strong>Cotisation (def.)</strong> = Somme versée en vue de contribuer à une dépense commune. C'est un soutien à l'asbl qui donne accès aux bénéfices de cette mise en commun.</p>
+  <!-- Tariff Details Card -->
+  <div class="card-deck text-center">
+    <div class="card mb-2 box-shadow">
+      <div class="card-body">
+        <!-- Pricing and membership details -->
+        <p class="lead">
+          <!-- <strong>Cotisation (def.)</strong> = Somme versée en vue de contribuer à une dépense commune. C'est un soutien à l'asbl qui donne accès aux bénéfices de cette mise en commun.</p>
               <br> -->
-              <h4 class="my-0 font-weight-normal">Devenez membre pour seulement 25€/an et rejoignez une communauté de passionnés pour apprendre, créer et partager ensemble.</h4>
-            <p>En adhérant, vous soutenez notre action et nos valeurs.</p>
-            <p>Votre adhésion vous donnera accès à nos événements internes comme les Council Makers où nous prenons collectivement des décisions sur la vie du lab. Vous pourrez également participer à nos soirées jeux mensuelles et rejoindre notre groupe WhatsApp pour rester connecté à la communauté. <br> Cependant, l'accès à l'espace de travail collaboratif et l'utilisation des équipements restent soumis à notre grille tarifaire générale.
+          <h4 class="my-0 font-weight-normal">Devenez membre pour seulement 25€/an et rejoignez une communauté de passionnés pour apprendre, créer et partager ensemble.</h4>
+          <p>En adhérant, vous soutenez notre action et nos valeurs.</p>
+          <p>Votre adhésion vous donnera accès à nos événements internes comme les Council Makers où nous prenons collectivement des décisions sur la vie du lab. Vous pourrez également participer à nos soirées jeux mensuelles et rejoindre notre groupe WhatsApp pour rester connecté à la communauté. <br> Cependant, l'accès à l'espace de travail collaboratif et l'utilisation des équipements restent soumis à notre grille tarifaire générale.
             </p>
-            <p><img src="/images/tarif2023.png" alt="" height="400"></p>
-          </div>
+          <p><img src="/images/tarif2023.png" alt="" height="400"></p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Calendar Section: Upcoming events and permanences -->
-    <div class="container" id="nos-prochains-rendez-vous">
-      <div class="text-center">
-        <h1 class="display-4 mt-5 pt-5">Nos prochaines permanences</h1>
-        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBrussels&showPrint=0&showTabs=0&showCalendars=0&mode=WEEK&hl=fr&showNav=1&src=Y19mbGU3bmczcjN0a21nYXQxczk1bzlidTgxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+  <!-- Calendar Section: Upcoming events and permanences -->
+  <div class="container" id="nos-prochains-rendez-vous">
+    <div class="text-center">
+      <h1 class="display-4 mt-5 pt-5">Nos prochaines permanences</h1>
+      <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBrussels&showPrint=0&showTabs=0&showCalendars=0&mode=WEEK&hl=fr&showNav=1&src=Y19mbGU3bmczcjN0a21nYXQxczk1bzlidTgxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <!-- Contact Section: Reaching out to OpenFab -->
+  <div class="container" id="commencons-ensemble">
+    <h1 class="display-4 mt-5 pt-5 text-center">Pour nous contacter</h1>
+    <div class="card-deck text-center">
+      <div class="card mb-2 box-shadow">
+        <div class="card-body">
+
+          <iframe data-tally-src="https://tally.so/embed/m6eajY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="276" frameborder="0" marginheight="0" marginwidth="0" title="Contact form"></iframe>
+          <script>
+            var d = document,
+              w = "https://tally.so/widgets/embed.js",
+              v = function () {
+                "undefined" != typeof Tally
+                  ? Tally.loadEmbeds()
+                  : d
+                    .querySelectorAll("iframe[data-tally-src]:not([src])")
+                    .forEach((function (e) {
+                      e.src = e.dataset.tallySrc
+                    }))
+              };
+            if ("undefined" != typeof Tally) 
+              v();
+            else if (d.querySelector('script[src="' + w + '"]') == null) {
+              var s = d.createElement("script");
+              s.src = w,
+              s.onload = v,
+              s.onerror = v,
+              d
+                .body
+                .appendChild(s);
+            }
+          </script>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- Contact Section: Reaching out to OpenFab -->
-    <div class="container" id="commencons-ensemble">
-      <h1 class="display-4 mt-5 pt-5 text-center">Pour nous contacter</h1>
-      <div class="card-deck text-center">
-        <div class="card mb-2 box-shadow">
-          <div class="card-body">
-            
-            <iframe data-tally-src="https://tally.so/embed/m6eajY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="276" frameborder="0" marginheight="0" marginwidth="0" title="Contact form"></iframe>
-            <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
-          </div>
-       </div>
-      </div>
-    </div>
-
-    <!-- Workshop Location Section: Physical space and address -->
-    <div class="container" id="notre-atelier">
-      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 mt-5 pt-5">Notre atelier</h1>
-        <p class="lead">L'atelier d'OpenFab se situe au 158 rue Gray à Ixelles. <br>
+  <!-- Workshop Location Section: Physical space and address -->
+  <div class="container" id="notre-atelier">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 mt-5 pt-5">Notre atelier</h1>
+      <p class="lead">L'atelier d'OpenFab se situe au 158 rue Gray à Ixelles. <br>
           Il est équipé d'une découpeuse laser 61x122cm, d'un petite cnc 30x40cm, d'une imprimante PrusaMini, d'une machine à coudre Singer, d'une découpeuse vinyle Cameo, d'outillage divers pour le travail de finition du bois et de l'électronique. Une cuisine est aussi à disposition ainsi que des toilettes PMR.</p>
-      </div>
+    </div>
 
-      <!-- Embedded Google Maps -->
+    <!-- Embedded Google Maps -->
+    <div class="row">
+      <div class="col">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.905226378007!2d4.376370815909567!3d50.83291936761275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4965c03a80b%3A0xc615e8d39bd5979e!2sRue%20Gray%20158%2C%201050%20Ixelles!5e0!3m2!1sfr!2sbe!4v1574198623697!5m2!1sfr!2sbe" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Local Municipality Logo -->
+    <div class="container mx-auto my-5 text-center ">
       <div class="row">
         <div class="col">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.905226378007!2d4.376370815909567!3d50.83291936761275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4965c03a80b%3A0xc615e8d39bd5979e!2sRue%20Gray%20158%2C%201050%20Ixelles!5e0!3m2!1sfr!2sbe!4v1574198623697!5m2!1sfr!2sbe" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <img src="/images/logoIxelles.png" alt="" width="90%"  >
         </div>
       </div>
-
-      <!-- Local Municipality Logo -->
-      <div class="container mx-auto my-5 text-center ">
-        <div class="row">
-          <div class="col">
-            <img src="/images/logoIxelles.png" alt="" width="90%"  >
-          </div>
-        </div>
     </div><br>
 
     <!-- Footer: Additional information and social links -->
@@ -324,14 +352,19 @@
           </div>
           <div class="col-5 text-center">
             <p class="txt-railway">- Suis nous -<br>- Mieux! Viens faire quelque chose! -</p>
-            <a href="https://www.facebook.com/OpenFab"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-            <a href="https://github.com/openfab-lab"><i id="social-git" class="fa fa-github-square fa-3x social"></i></a>
+            <a href="https://www.facebook.com/OpenFab">
+              <i id="social-fb" class="fa fa-facebook-square fa-3x social"></i>
+            </a>
+            <a href="https://github.com/openfab-lab">
+              <i id="social-git" class="fa fa-github-square fa-3x social"></i>
+            </a>
           </div>
           <div class="col text-right">
             <p><br>This work is licensed under a Creative Commons Attribution NonCommercial ShareAlike 4.0 International License.<br>
             Design by ZuperNinja, Satblip, Doegox and Nicolasdb with BootStrap, beers and french fries.</p>
           </div>
         </div>
+      </div>
     </footer>
 
     <!-- JavaScript Libraries -->

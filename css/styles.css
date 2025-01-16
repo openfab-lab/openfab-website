@@ -4,20 +4,22 @@
   --secondary-color: #666;
   --background-light: #ffffff;
   --background-dark: #f1f1f1;
-  --card-header-bg: #f8f9fa;  /* Light gray for card headers */
-  --card-border-color: #dee2e6;  /* Slightly darker border */
+  --card-header-bg: #f8f9fa; /* Light gray for card headers */
+  --card-border-color: #dee2e6; /* Slightly darker border */
   --accent-color: #007bff;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   color: var(--primary-color);
   background-color: var(--background-light);
 }
 
 .jumbotron {
-  background: url('/images/ban-hero.jpg') no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   height: 100%;
   color: white;
@@ -25,21 +27,34 @@ body {
   position: relative;
 }
 
-.logo-link {
-  position: absolute;
-  top: 5px;
-  left: 15px;
-  z-index: 10;
-  transition: transform 0.3s ease;
-}
-
-.logo-link:hover {
-  transform: scale(1.05);
+.logo-link img {
+  width: 40px;
 }
 
 .logo {
   width: 100px;
   height: auto;
+}
+
+.gamelab-about {
+  display: none;
+  width: 400px;
+  float: left;
+  shape-outside: url(/images/gamelab-1.png);
+  shape-margin: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* Section Headings */
@@ -62,7 +77,7 @@ body {
   background-color: var(--background-light);
   border: 1px solid var(--card-border-color);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   max-width: 800px;
   margin: 0 auto;
@@ -79,7 +94,7 @@ body {
 #votre-parcours-maker .accordion {
   background-color: var(--background-light);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--card-border-color);
   overflow: hidden;
 }
@@ -104,7 +119,7 @@ body {
 }
 
 #votre-parcours-maker .accordion .card-header:hover {
-  background-color: #e9ecef;  /* Slightly darker gray on hover */
+  background-color: #e9ecef; /* Slightly darker gray on hover */
 }
 
 #votre-parcours-maker .accordion .card-header button {
@@ -116,7 +131,7 @@ body {
 
 #votre-parcours-maker .accordion .card.show .card-header,
 #votre-parcours-maker .accordion .card-header:active {
-  background-color: #e2e6ea;  /* Even darker gray when active/selected */
+  background-color: #e2e6ea; /* Even darker gray when active/selected */
 }
 
 #votre-parcours-maker .accordion .card-body {
@@ -130,12 +145,12 @@ body {
   border: 1px solid var(--card-border-color);
   border-radius: 6px;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-3px);
 }
 
@@ -147,12 +162,13 @@ body {
 /* Embedded Content */
 iframe {
   border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 100%;
 }
 
 /* Footer */
 footer {
+  border-top: 1px solid lightgray;
   background-color: var(--primary-color);
   color: white;
   padding: 2rem 0;
