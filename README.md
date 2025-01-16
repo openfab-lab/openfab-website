@@ -40,13 +40,14 @@ This is the official website for OpenFab, a Brussels-based FabLab that explores 
 ## Suggested Improvements and Contribution Tasks
 
 ### Technical Enhancements
-1. **Contact Form Webhook Integration**
-   - Implement an automated notification system for new contact form submissions
-   - Potential technologies: Zapier, IFTTT, or custom serverless functions
-   - Goals:
-     * Instant notification to community managers
-     * Automated tracking of incoming inquiries
-     * Potential integration with communication platforms (Slack, Discord)
+1. ~~**Contact Form Webhook Integration**~~
+   - ~~Implement an automated notification system for new contact form submissions~~
+   - ~~Potential technologies: Zapier, IFTTT, or custom serverless functions~~
+   - ~~Goals:~~
+     * ~~Instant notification to community managers~~
+     * ~~Automated tracking of incoming inquiries~~
+     * ~~Potential integration with communication platforms (Slack, Discord)~~  
+> Form integrated with Tally.so and automatic forward to contact email openfab
 
 2. **Dynamic FAQ Management System**
    - Create a mechanism to easily update and add FAQs
@@ -84,12 +85,12 @@ This is the official website for OpenFab, a Brussels-based FabLab that explores 
 - Responsive Web Design
 
 ## Credits
-- Design: @ZuperNinja, @Satblip, @Doegox, and @nicolasdb
+- Design: @ZuperNinja, @Satblip, @Doegox, @nicolasdb and @maeligg
 - Inspiration: Maker community spirit
 - Special thanks to Vulca initiative
 
 ## License
-Creative Commons Attribution NonCommercial ShareAlike 4.0 International License
+Creative Commons Attribution ShareAlike 4.0 International License
 
 ## Contact
 - Website: [OpenFab](https://openfab.be)
