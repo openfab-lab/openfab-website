@@ -1,28 +1,20 @@
 {
-  api_compatibility: [
-     "15"
-  ]
-  contact: {
-    discord: "https://discord.gg/wGs7XWEvn7"
-    email: "contact@openfab.be"
-    facebook: "https://www.facebook.com/OpenFab/"
-    github: "https://github.com/openfab-lab"
-  }
-  knowsAbout: [
-     "3D printing"
-     "Laser cutting"
-     "Electronics"
-     "Woodworking"
-     "Textile"
-  ]
-  location: {
-    address: "158, Rue Gray, 1050 Brussels, Belgium"
-    country_code: "BE"
-    lat: 50.83302923867064
-    lon: 4.378383440647201
-    timezone: "Europe/Brussels"
-  }
-  logo: "https://openfab.be/logoOnly100.png"
-  space: "OpenFab"
-  url: "https://openfab.be"
+  "api_compatibility": ["15"],
+  "space": "OpenFab",
+  "logo": "https://openfab.be/logoOnly100.png",
+  "url": "https://openfab.be",
+  "location": {
+    "address": "158, Rue Gray, 1050 Brussels, Belgium",
+    "lat": 50.83302923867064,
+    "lon": 4.378383440647201,
+    "timezone": "Europe/Brussels",
+    "country_code": "BE"
+  },
+  "contact": {
+    "email": "contact@openfab.be",
+    "facebook": "https://www.facebook.com/OpenFab/",
+    "github": "https://github.com/openfab-lab",
+    "discord": "https://discord.gg/wGs7XWEvn7"
+  },
+  "knowsAbout": ["3D printing", "Laser cutting", "Electronics", "Woodworking", "Textile"]
 }
