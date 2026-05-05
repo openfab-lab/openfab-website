@@ -1,36 +1,28 @@
 {
-  "@context": {
-    "mom": "https://nicolasdb.github.io/mapsofmaking_ontology/ns#",
-    "schema": "https://schema.org/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@type": "mom:Space",
-  "@id": "https://openfab.be/spaces/openfab",
-  "schema:name": "OpenFab",
-  "schema:description": "Brussels' original community fab lab (est. 2011) — a place to design, prototype and make with digital fabrication tools, electronics, game design, and agentic AI workflows.",
-  "schema:url": "https://openfab.be",
-  "schema:geo": {
-    "@type": "schema:GeoCoordinates",
-    "schema:latitude": 50.83302923867064,
-    "schema:longitude": 4.378383440647201
-  },
-  "schema:address": {
-    "@type": "schema:PostalAddress",
-    "schema:streetAddress": "158 Rue Gray",
-    "schema:postalCode": "1050",
-    "schema:addressLocality": "Ixelles",
-    "schema:addressCountry": "BE"
-  },
-  "schema:knowsAbout": [
-    "3d-printing",
-    "laser-cutting",
-    "cnc",
-    "electronics",
-    "vinyl-cutting",
-    "game-design",
-    "agentic-ai",
-    "embedded-systems"
-  ],
-  "mom:operationalState": "active",
-  "mom:geolocationFidelity": "exact"
+  api_compatibility: [
+     "15"
+  ]
+  contact: {
+    discord: "https://discord.gg/wGs7XWEvn7"
+    email: "contact@openfab.be"
+    facebook: "https://www.facebook.com/OpenFab/"
+    github: "https://github.com/openfab-lab"
+  }
+  knowsAbout: [
+     "3D printing"
+     "Laser cutting"
+     "Electronics"
+     "Woodworking"
+     "Textile"
+  ]
+  location: {
+    address: "158, Rue Gray, 1050 Brussels, Belgium"
+    country_code: "BE"
+    lat: 50.83302923867064
+    lon: 4.378383440647201
+    timezone: "Europe/Brussels"
+  }
+  logo: "https://openfab.be/logoOnly100.png"
+  space: "OpenFab"
+  url: "https://openfab.be"
 }
