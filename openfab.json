@@ -3,6 +3,7 @@
   "space": "OpenFab",
   "logo": "https://openfab.be/logoOnly100.png",
   "url": "https://openfab.be",
+  "description": "Brussels' pioneers community fab lab (est 2012) - a place to design, prototype and make with digital fabrication tools, electronics, game design, and agentic AI workflows.",
   "location": {
     "address": "158, Rue Gray, 1050 Brussels, Belgium",
     "lat": 50.83302923867064,
@@ -16,5 +17,6 @@
     "github": "https://github.com/openfab-lab",
     "discord": "https://discord.gg/wGs7XWEvn7"
   },
-  "knowsAbout": ["3D printing", "Laser cutting", "Electronics", "Woodworking", "Textile"]
+  "knowsAbout": ["3D printing", "Laser cutting", "Electronics", "Woodworking", "Textile"],
+  "opening_hours": "Every Wednesday from 13:00 to 17:00 (public). Members have broader access."
 }
