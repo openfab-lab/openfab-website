@@ -11,6 +11,9 @@
     "timezone": "Europe/Brussels",
     "country_code": "BE"
   },
+  "state": {
+    "open": true
+  },
   "contact": {
     "email": "contact@openfab.be",
     "facebook": "https://www.facebook.com/OpenFab/",
