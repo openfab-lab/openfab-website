@@ -65,79 +65,30 @@ body {
 }
 
 /* Calendar Section Specific Styles */
-#nos-prochains-rendez-vous {
+#nos-prochains-evenements {
   margin-bottom: 2rem;
 }
 
-#nos-prochains-rendez-vous .display-4 {
+#nos-prochains-evenements .display-4 {
   margin-bottom: 1.5rem;
 }
 
-#nos-prochains-rendez-vous .calendar-container {
-  background-color: var(--background-light);
-  border: 1px solid var(--card-border-color);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#nos-prochains-rendez-vous iframe {
-  width: 100%;
-  height: 400px;
+#nos-prochains-evenements iframe {
+  max-width: 100%;
   border: none;
   border-radius: 6px;
 }
 
-/* Accordion Specific Styles */
-#votre-parcours-maker .accordion {
-  background-color: var(--background-light);
+/* Accordion Specific Styles (Bootstrap 5 .accordion markup) */
+#accordionFAQ {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--card-border-color);
   overflow: hidden;
 }
 
-#votre-parcours-maker .accordion .card {
-  border: none;
-  border-bottom: 1px solid var(--card-border-color);
-  margin-bottom: 0;
-  border-radius: 0;
-}
-
-#votre-parcours-maker .accordion .card:last-child {
-  border-bottom: none;
-}
-
-#votre-parcours-maker .accordion .card-header {
-  background-color: var(--card-header-bg);
-  padding: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-bottom: 1px solid var(--card-border-color);
-}
-
-#votre-parcours-maker .accordion .card-header:hover {
-  background-color: #e9ecef; /* Slightly darker gray on hover */
-}
-
-#votre-parcours-maker .accordion .card-header button {
-  color: var(--primary-color);
+#accordionFAQ .accordion-button {
   font-weight: 600;
-  width: 100%;
-  text-align: left;
-}
-
-#votre-parcours-maker .accordion .card.show .card-header,
-#votre-parcours-maker .accordion .card-header:active {
-  background-color: #e2e6ea; /* Even darker gray when active/selected */
-}
-
-#votre-parcours-maker .accordion .card-body {
-  background-color: white;
-  padding: 1rem;
-  border-top: 1px solid var(--card-border-color);
+  color: var(--primary-color);
 }
 
 /* Card Styles */
@@ -180,7 +131,7 @@ footer a {
 }
 
 footer a:hover {
-  color: lighten(var(--accent-color), 20%);
+  color: #66b0ff;
   text-decoration: none;
 }
 
@@ -207,7 +158,7 @@ footer a:hover {
 }
 
 .social:hover {
-  color: darken(var(--accent-color), 10%);
+  color: #0062cc;
 }
 
 /* Smooth Scroll */
