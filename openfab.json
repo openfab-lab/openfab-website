@@ -1,5 +1,7 @@
 {
-  "api_compatibility": ["15"],
+  "api_compatibility": [
+    "15"
+  ],
   "space": "OpenFab",
   "logo": "https://openfab.be/logoOnly100.png",
   "url": "https://openfab.be",
@@ -21,9 +23,25 @@
     "discord": "https://discord.gg/wGs7XWEvn7"
   },
   "mom": {
-    "sdgs": [4, 9, 12, 17],
-    "memberOf": ["fabtafel", "RFB", "vulca"]
+    "sdgs": [
+      4,
+      9,
+      12,
+      17
+    ],
+    "memberOf": [
+      "fabtafel",
+      "RFB",
+      "vulca"
+    ]
   },
-  "knowsAbout": ["3D printing", "Laser cutting", "Electronics", "Woodworking", "Textile"],
-  "opening_hours": "Every Wednesday from 13:00 to 17:00 (public). Members have broader access."
+  "knowsAbout": [
+    "3D printing",
+    "Laser cutting",
+    "Electronics",
+    "Woodworking",
+    "Textile"
+  ],
+  "opening_hours": "Every Wednesday from 13:00 to 17:00 (public). Members have broader access.",
+  "next_event": "Open House \u2014 2026-06-20"
 }
