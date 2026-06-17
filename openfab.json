@@ -14,7 +14,7 @@
     "country_code": "BE"
   },
   "state": {
-    "open": "opted-out"
+    "open": true
   },
   "contact": {
     "email": "contact@openfab.be",
